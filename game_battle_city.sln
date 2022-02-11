@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "game_battle_city", "game_battle_city\game_battle_city.pyproj", "{60FBA625-6112-4679-9B1E-B8155B54C90B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60FBA625-6112-4679-9B1E-B8155B54C90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FBA625-6112-4679-9B1E-B8155B54C90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {067E4C76-DB1B-4274-9C11-C9B936D4F2B2}
+	EndGlobalSection
+EndGlobal

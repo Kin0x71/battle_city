@@ -1,0 +1,29 @@
+{
+    "source_file":"sprites_sheet.png",
+    "blocks":{
+        "bricks":{
+            "scale":1,
+            "hp":1,
+            "x":256,
+            "y":64,
+            "w":8,
+            "h":8
+        },
+        "steel":{
+            "scale":1,
+            "hp":1000,
+            "x":256,
+            "y":72,
+            "w":8,
+            "h":8
+        },
+        "base":{
+            "scale":1,
+            "hp":1,
+            "x":304,
+            "y":33,
+            "w":16,
+            "h":14
+        }
+    }
+}

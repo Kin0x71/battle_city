@@ -1,0 +1,67 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>60fba625-6112-4679-9b1e-b8155b54c90b</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>game_battle_city.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>game_battle_city</Name>
+    <RootNamespace>game_battle_city</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="battle_city\defines.py" />
+    <Compile Include="battle_city\engine\nicholas_swift_astar.py" />
+    <Compile Include="battle_city\engine\behavior.py" />
+    <Compile Include="battle_city\engine\collisions_math.py" />
+    <Compile Include="battle_city\engine\navigation.py" />
+    <Compile Include="battle_city\engine\sources.py" />
+    <Compile Include="battle_city\engine\sprites.py" />
+    <Compile Include="battle_city\engine\transforms.py" />
+    <Compile Include="battle_city\engine\units.py" />
+    <Compile Include="battle_city\game.py" />
+    <Compile Include="battle_city\map_templates.py" />
+    <Compile Include="battle_city\__init__.py" />
+    <Compile Include="game_battle_city.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="battle_city\" />
+    <Folder Include="battle_city\battle_city_content\" />
+    <Folder Include="battle_city\engine\" />
+    <Folder Include="battle_city\engine\__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="battle_city\battle_city_content\blocks.json" />
+    <Content Include="battle_city\battle_city_content\game_objects.json" />
+    <Content Include="battle_city\battle_city_content\sprites_sheet.png" />
+    <Content Include="battle_city\battle_city_content\Terminus.ttf" />
+    <Content Include="battle_city\engine\__pycache__\astar.cpython-37.pyc" />
+    <Content Include="battle_city\engine\__pycache__\behavior.cpython-37.pyc" />
+    <Content Include="battle_city\engine\__pycache__\collisions_math.cpython-37.pyc" />
+    <Content Include="battle_city\engine\__pycache__\navigation.cpython-37.pyc" />
+    <Content Include="battle_city\engine\__pycache__\sources.cpython-37.pyc" />
+    <Content Include="battle_city\engine\__pycache__\sprites.cpython-37.pyc" />
+    <Content Include="battle_city\engine\__pycache__\transforms.cpython-37.pyc" />
+    <Content Include="battle_city\engine\__pycache__\units.cpython-37.pyc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
