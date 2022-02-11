@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>60fba625-6112-4679-9b1e-b8155b54c90b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>game_battle_city.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -33,7 +33,7 @@
     <Compile Include="battle_city\game.py" />
     <Compile Include="battle_city\map_templates.py" />
     <Compile Include="battle_city\__init__.py" />
-    <Compile Include="game_battle_city.py" />
+    <Compile Include="main.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="battle_city\" />
@@ -54,6 +54,7 @@
     <Content Include="battle_city\engine\__pycache__\sprites.cpython-37.pyc" />
     <Content Include="battle_city\engine\__pycache__\transforms.cpython-37.pyc" />
     <Content Include="battle_city\engine\__pycache__\units.cpython-37.pyc" />
+    <Content Include="battle_city\main.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
